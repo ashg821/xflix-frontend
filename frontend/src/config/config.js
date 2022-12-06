@@ -1,0 +1,1 @@
+export default { port: `https://xflix-backend-ashwani.herokuapp.com/v1` }

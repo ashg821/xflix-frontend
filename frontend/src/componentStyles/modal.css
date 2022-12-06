@@ -1,0 +1,39 @@
+.modal-header {
+    border-bottom: 0 solid transparent;
+    padding-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0 solid transparent;
+    justify-content: flex-start;
+}
+
+.modal-body{
+    padding-top: 0;
+}
+
+.modal-content {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.btn-close {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form-element {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+    margin-top: 15px;
+}
+
+.form-select:focus {
+    color:#424242 !important;
+}
+
+.form-element:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-color: transparent;
+    border: 1px solid #ced4da;
+}

@@ -1,0 +1,55 @@
+.iframe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iframe {
+    width: 100%;
+    height: 523px;
+    border-radius: 10.449px;
+}
+
+.iframe-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.iframe-vote-btn-container {
+    display: flex;
+    min-width: 130px;
+    justify-content: space-between;
+}
+
+.iframe-vote-btn {
+    border: 0 solid transparent;
+    background: rgba(255, 255, 255, 0.1);
+    color: #797979;
+    mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    border-radius: 16px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iframe-viewCount-time {
+    display: flex;
+    justify-content: space-between;
+    color: #C2C2C2;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 132px;
+}
